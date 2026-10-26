@@ -1,5 +1,29 @@
+# Build
 bin/
 obj/
-/packages/
+[Dd]ebug/
+[Rr]elease/
+TestResults/
+*.log
+
+# IDEs
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
 riderModule.iml
-/_ReSharper.Caches/
+_ReSharper.Caches/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local config
+.env
+*.local.json
+appsettings.*.local.json
+
+# Packages
+/packages/
+*.nupkg
