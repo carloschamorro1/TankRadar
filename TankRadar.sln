@@ -1,6 +1,21 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankRadar.Api", "TankRadar.Api\TankRadar.Api.csproj", "{72A91B81-0467-44F4-A88B-AFB950CFC309}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1B2C3D4-0001-4A5B-8C6D-111111111105}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1B2C3D4-0001-4A5B-8C6D-111111111106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankRadar.Domain", "src\TankRadar.Domain\TankRadar.Domain.csproj", "{A1B2C3D4-0001-4A5B-8C6D-111111111101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankRadar.Application", "src\TankRadar.Application\TankRadar.Application.csproj", "{A1B2C3D4-0001-4A5B-8C6D-111111111102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankRadar.Infrastructure", "src\TankRadar.Infrastructure\TankRadar.Infrastructure.csproj", "{A1B2C3D4-0001-4A5B-8C6D-111111111103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankRadar.Api", "src\TankRadar.Api\TankRadar.Api.csproj", "{72A91B81-0467-44F4-A88B-AFB950CFC309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankRadar.UnitTests", "tests\TankRadar.UnitTests\TankRadar.UnitTests.csproj", "{A1B2C3D4-0001-4A5B-8C6D-111111111104}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +23,35 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B2C3D4-0001-4A5B-8C6D-111111111101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111103}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72A91B81-0467-44F4-A88B-AFB950CFC309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72A91B81-0467-44F4-A88B-AFB950CFC309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A91B81-0467-44F4-A88B-AFB950CFC309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72A91B81-0467-44F4-A88B-AFB950CFC309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-4A5B-8C6D-111111111104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1B2C3D4-0001-4A5B-8C6D-111111111101} = {A1B2C3D4-0001-4A5B-8C6D-111111111105}
+		{A1B2C3D4-0001-4A5B-8C6D-111111111102} = {A1B2C3D4-0001-4A5B-8C6D-111111111105}
+		{A1B2C3D4-0001-4A5B-8C6D-111111111103} = {A1B2C3D4-0001-4A5B-8C6D-111111111105}
+		{72A91B81-0467-44F4-A88B-AFB950CFC309} = {A1B2C3D4-0001-4A5B-8C6D-111111111105}
+		{A1B2C3D4-0001-4A5B-8C6D-111111111104} = {A1B2C3D4-0001-4A5B-8C6D-111111111106}
 	EndGlobalSection
 EndGlobal
